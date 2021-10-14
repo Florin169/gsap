@@ -1,0 +1,60 @@
+.page-1,
+.scroll {
+  display: flex;
+  overflow: hidden;
+}
+
+.intro,
+.scroll-text {
+  width: 60%;
+  height: 100vh;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.page-3 {
+  height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.intro h1,
+.scroll-text h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.intro p,
+.scroll-text p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 40px 0;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image,
+.scroll-img {
+  width: 40%;
+  height: 100vh;
+  background-size: contain;
+}
+
+.image img,
+.scroll-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+}
